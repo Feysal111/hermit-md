@@ -16,8 +16,8 @@ process.env.NODE_OPTIONS = '--max_old_space_size=2560'
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
 module.exports = {
 	VERSION: 'v4.4.1', 
-    SESSION_ID: process.env.SESSION_ID || '',
-    MODE: (process.env.MODE || 'public').toLowerCase(),
+    SESSION_ID: process.env.SESSION_ID || '05_27_H_E_R_M_I_T_EC4G3WX',
+    MODE: (process.env.MODE || 'private').toLowerCase(),
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
     SEND_READ: (process.env.READ_COMMAND || false),
     READ_MSG: process.env.READ_MSG === 'true', 
@@ -25,11 +25,11 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
-    BOT_NAME: process.env.BOT_NAME || 'ʜᴇʀᴍɪᴛ',
+    BOT_NAME: process.env.BOT_NAME || 'jaytoby',
     AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group autounmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
     ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
-    BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/6oRG106.jpeg',
+    BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;255623002302;https://i.imgur.com/6oRG106.jpeg',
     AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
     STICKER_DATA: process.env.STICKER_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ' : process.env.STICKER_DATA,
     ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE), 
@@ -46,8 +46,8 @@ module.exports = {
     START_MSG: toBool(process.env.START_MSG || 'true'),
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
-        API_KEY: process.env.HEROKU_API_KEY,
-        APP_NAME: process.env.HEROKU_APP_NAME
+        API_KEY: process.env.HEROKU_API_KEY,HRKU'HRKU-868521d6-42ee-4d98-be79-476ffc5feee0'
+        APP_NAME: process.env.HEROKU_APP_NAME'jaytoby444'
        },
        DATABASE_URL: DATABASE_URL,
        DATABASE:
